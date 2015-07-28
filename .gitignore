@@ -1,1 +1,5 @@
-settings.json
+# DON'T CHECK YOUR API KEYS INTO YOUR REPOSITORY
+# UNCOMMENT THE FOLLOWING LINES THREE LINES
+# .deployment
+# .staging
+# settings.json

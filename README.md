@@ -18,7 +18,6 @@ Configure test settings: Project Settings -> Test
 ```bash
 nvm install 0.10.36
 nvm use 0.10.36
-npm install jshint -g
 curl -o meteor_install_script.sh https://install.meteor.com/
 chmod +x meteor_install_script.sh
 sed -i "s/type sudo >\/dev\/null 2>&1/\ false /g" meteor_install_script.sh
@@ -36,7 +35,7 @@ meteor --test --release velocity:METEOR@1.1.0.2_3
 ### Deployment
 Configure deployment settings: Project Settings -> Deployment
 
-Add new deployment pipeline:
+Add a new deployment pipeline with the following custom script:
 
 ```bash
 npm install -g mup
