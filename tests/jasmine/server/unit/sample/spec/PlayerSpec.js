@@ -44,6 +44,6 @@ describe('Player', function() {
     player.play(song);
     player.makeFavorite();
 
-    expect(song.persistFavoriteStatus).toHaveBeenCalledWith(true);
+    expect(song.persistFavoriteStatus).toHaveBeenCalledWith(false);
   });
 });
