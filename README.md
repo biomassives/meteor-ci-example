@@ -39,7 +39,7 @@ Add a new deployment pipeline with the following custom script:
 
 ```bash
 npm install -g mup
-cd .deployment
+cd .deployment/production/
 mup deploy
 ```
 
