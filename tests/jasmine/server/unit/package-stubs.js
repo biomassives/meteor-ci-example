@@ -7207,9 +7207,9 @@ var packageMetadata = {
               "type": "null",
               "value": null
             },
-            "connections": {
+            "getConnections": {
               "type": "constant",
-              "value": 6
+              "value": 0
             },
             "timeout": {
               "type": "constant",
